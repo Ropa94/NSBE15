@@ -1,0 +1,11 @@
+{
+	"name": "Random",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "First chrome app",
+	"content_scripts":[
+	{
+		"matches":["http://en.wikipedia.org/wiki/Martin_Luther_King_Magnet_at_Pearl_High_School"],
+		"css":["change.css"]
+	}]
+}
